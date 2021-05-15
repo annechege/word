@@ -2,9 +2,11 @@
   <h1>My Goals</h1>
   <hr>
   <ul>
-    <li *ngFor='let word of word'>
-      {{word.name}}
-      <app-word-detail [word]='word'></app-word-detail>
-    </li>
-  </ul>
+    <div *ngFor='let word of word;let i = index'>
+    <li>{{word.name}}</li>
+    <button (click)='toggleDetails(i)'>Toggle Details</button>
+    <app-word-detail *ngIf='word.showDescription' [word]='word'></app-word-detail>
+  </div>
+</ul>
+<p *ngIf='word.length > 5'>You have too many goals</p>
 </div>
