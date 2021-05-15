@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { word} from '../word';
+import { word } from '../word';
 
 @Component({
   selector: 'app-word',
