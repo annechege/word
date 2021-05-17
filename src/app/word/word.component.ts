@@ -10,14 +10,14 @@ export class WordComponent implements OnInit {
   title = 'word';
   word:word[] =
   [
-    new word(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son'),
-    new word(2,'Buy Cookies','I have to buy cookies for the parrot'),
-    new word(3,'Get new Phone Case','Diana has her birthday coming up soon'),
-    new word(4,'Get Dog Food','Pupper likes expensive snacks'),
-    new word(5,'Solve math homework','Damn Math'),
-    new word(6,'Plot my world domination plan','Cause I am an evil overlord'),
+    new word(1, 'Gathi', 'You must be the change you want to see in this world'),
+    new word(2,'George Bernhard','A life spent making mistakesnis not only more honorable, but more usefule than a life spent doing nothing'),
+    new word(3,'Michel De Montaigne,','He who fears will suffer, already suffers because he fears'),
+    new word(4,'Confucius','Life is really simple, but we insist on making it complicated'),
+    new word(5,'Mary engelbreit ','If you dont like something change it.If you can change it ,change the way you think about it'),
+    new word(6,'Unkown','In seeking happiness in othere you will fiind it in yourself'),
   ];
-  
+
 
 
       toggleDetails(index){
